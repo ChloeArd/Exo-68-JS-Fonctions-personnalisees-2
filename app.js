@@ -1,13 +1,13 @@
-let elements = document.getElementsByTagName('p');
+let random1 = document.getElementsByTagName('p');
+let aleatoire;
 
-for(let i = 0; i < 11; i++) {
-    elements = document.getElementsByTagName('p').innerHTML = aleatoire().toString();
-    console.log(elements);
-}
-
-function aleatoire() {
+function aleatoire2() {
     let random = Math.random() * 100;
     random = Math.ceil(random);
     return random;
 }
 
+for( let i = 0; i < 1; i++) {
+    aleatoire = aleatoire2();
+    random1.innerHTML = aleatoire;
+}
