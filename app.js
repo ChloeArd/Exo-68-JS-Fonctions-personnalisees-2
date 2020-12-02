@@ -7,7 +7,8 @@ function aleatoire2() {
     return random;
 }
 
-for( let i = 0; i < 1; i++) {
+for( let i = 0; i < 11; i++) {
     aleatoire = aleatoire2();
     random1.innerHTML = aleatoire;
 }
+
