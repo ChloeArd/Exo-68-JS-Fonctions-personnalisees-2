@@ -1,5 +1,4 @@
 let random1 = document.getElementsByTagName('p');
-let aleatoire;
 
 function aleatoire2() {
     let random = Math.random() * 100;
@@ -8,6 +7,5 @@ function aleatoire2() {
 }
 
 for( let i = 0; i < 11; i++) {
-    aleatoire = aleatoire2();
-    random1.innerHTML = aleatoire;
+    random1.innerHTML = aleatoire2();
 }
