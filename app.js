@@ -1,5 +1,4 @@
 let elements = document.getElementsByTagName('p');
-let aleatoire;
 
 function aleatoire2() {
     let random = Math.random() * 100;
@@ -7,9 +6,9 @@ function aleatoire2() {
     return random;
 }
 
-for( let i = 0; i < 11; i++) {
-    aleatoire = aleatoire2();
-    elements.innerHTML = aleatoire;
+for( let i = 0; i < elements.length; i++) {
+    elements.item(i).innerHTML = aleatoire2() ;
     console.log(elements);
 }
+
 
